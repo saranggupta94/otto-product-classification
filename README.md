@@ -1,15 +1,15 @@
 # otto-product-classification
 
-README
+### Project Overview
 
 This project aims to train a machine learning algorithm that is able to classify a product into
 different categories based on the product characteristics. The project is based on Kaggle
-competition - Otto Group Product Classification Challenge [6]. The data set provided by the
+competition - Otto Group Product Classification Challenge. The data set provided by the
 Otto group consists of product features and their categories for around 60,000 products. This
 project aims to use the labelled data and supervised learning techniques to develop an
 algorithm for predicting the product categories given the product features.
 
-Solution Overview
+### Solution Overview
 
 With the given problem statement and dataset, the project will use supervised probabilistic
 classification algorithms to classify the products into different categories. The given dataset
@@ -41,15 +41,15 @@ the Evaluation Metrics section. Models’ performance on both test and training 
 evaluated for signs of overfitting. The goal of the training process would be to minimize the
 log loss function on the test data set.
 
-Development Environment:
+### Development Environment:
 -Python 3.x
 -Sklearn 0.17
 -Pandas
 -Numpy
 -Matplotlib
 
-Dataset
+### Dataset
 - The input dataset can be found in the folder: input\dataset.csv
 
-MODELS
-- Trained models have been pickeled and stored in the folder 'models'. These models can directly be loaded for testing.
+### Models
+- The models folder is empty. While running the notebook, the models will be pickled and stored in this folder.
