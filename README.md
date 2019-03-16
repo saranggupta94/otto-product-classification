@@ -1,4 +1,4 @@
-# otto-product-classification
+# Otto Product Classification
 
 ### Project Overview
 
@@ -18,24 +18,29 @@ algorithms to predict the probability distribution of the product belonging to t
 categories given its input features. The proposed solution will use an ensemble of
 classification algorithms. The developed model will be evaluated on the test set using log-loss
 function which is discussed in the Evaluation Metrics section.
+
 The project will be approached in 4 stages –
-1. Data Exploration and Pre-Processing
+
+1. Data Exploration and Pre-Processing:
 The first step of the project would be to analyse and pre-process the dataset. Dataset will be
 cleaned to remove unwanted values (such as product ids) and encode the target labels.
 Feature scaling and normalizing techniques will be used to scale skewed features.
-2. Dimensionality Reduction
+
+2. Dimensionality Reduction:
 The given dataset consists of 93 features. This is a large feature set and this section will
 explore dimensionality reduction and feature selection for reducing the input feature set.
 Principal component analysis will be used to explore the viability of dimensionality reduction
 for the dataset.
-3. Supervised Learning
+
+3. Supervised Learning:
 Next step would to use the reduced feature set and target labels to train supervised
 classification models. Different classification algorithms that will be explored are - random
 forests, K-Nearest Neighbours and boosting. These algorithms have been chosen as potential
 candidates because of their ability to work with multiclass classification problems and output
 a probability distribution over target classes. In addition to looking at the individual
 algorithms’ performance, ensemble learning approach will also be explored.
-4. Model Testing
+
+4. Model Testing:
 The trained models will be evaluated on the test data set using the log loss function defined in
 the Evaluation Metrics section. Models’ performance on both test and training dataset will be
 evaluated for signs of overfitting. The goal of the training process would be to minimize the
