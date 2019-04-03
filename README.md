@@ -54,7 +54,7 @@ log loss function on the test data set.
 -Matplotlib
 
 ### Dataset
-- The input dataset can be found in the folder: input\dataset.csv
+- The input dataset can be found in the folder: input/dataset.csv
 
 ### Models
 - The models folder is empty. While running the notebook, the models will be pickled and stored in this folder.
